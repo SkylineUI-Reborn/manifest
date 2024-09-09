@@ -13,6 +13,10 @@
            fetch="https://github.com/SkylineUI-Reborn"
            revision="refs/heads/fourteen" />
 
+  <remote  name="SkylineUI-Devices"    
+           fetch="https://github.com/SkylineUI-Devices"
+           revision="refs/heads/aosp-13" />
+
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="PixelOS" />
   <project path="art" name="art" groups="pdk" remote="PixelOS" />
@@ -77,4 +81,6 @@
   <project path="packages/apps/Pif" name="packages_apps_Pif" remote="SkylineUI" />
   <project path="vendor/certification" name="vendor_certification" remote="SkylineUI" />
 
+  <!-- Official Devices -->
+  <project path="vendor/official_devices" name="official_devices" remote="SkylineUI-Devices" />
 </manifest>
