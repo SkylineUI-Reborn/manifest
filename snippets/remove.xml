@@ -109,6 +109,7 @@
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
+  <remove-project name="platform/external/boringssl" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av"/>
