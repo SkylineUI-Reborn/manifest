@@ -66,7 +66,7 @@
   <!-- Begin Extras -->
 
   <!-- Device -->
-  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="PixelOS" />
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="SkylineUI" />
 
   <!-- Packages -->
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="PixelOS" />
