@@ -20,7 +20,7 @@
   <project path="libcore" name="LineageOS/android_libcore" groups="pdk" remote="LineageOS" />
 
   <!-- Build -->
-  <project path="build/release" name="LineageOS/android_build_release" groups="pdk,tradefed" remote="LineageOS" />
+  <project path="build/release" name="build_release" groups="pdk,tradefed" remote="SkylineUI" />
 
   <!-- Device -->
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" remote="LineageOS" />
